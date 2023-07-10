@@ -1,0 +1,55 @@
+#
+# GitHub links displayed in the information modal
+#
+[github]
+  main = "https://github.com/corp-por/docs"
+  download = "https://github.com/corp-por/docs/archive/main.zip"
+  issue = "https://github.com/corp-por/docs/issues"
+  fork = "https://github.com/corp-por/docs/fork"
+#
+# Miscellaneous sidebar parameters
+#
+[sidebar]
+  homeSectionIconDefault = "fa-solid fa-house-chimney"
+  firstSectionIconDefault = "fa-solid fa-ban"
+  nestedSectionIconDefault = "fa-solid fa-turn-up fa-rotate-90 fa-xs"
+#
+# List of theme keyboard shortcuts
+# For every shortcut the following keys are sets:
+# - keys     = [Table of keyboard shortcut keys] (https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)
+# - function = "Name of the javascript function to call for the shortcut"
+#
+[navbar]
+  [navbar.shortcuts.1_info]
+    keys = ["Shift","i"]
+    function = "scShowInfo"
+  [navbar.shortcuts.2_shortcuts]
+    keys = ["Shift","k"]
+    function = "scShowShortcuts"
+  [navbar.shortcuts.3_home]
+    keys = ["Shift","h"]
+    function = "scGoHome"
+  [navbar.shortcuts.4_search]
+    keys = ["Shift","f"]
+    function = "scGoSearch"
+  [navbar.shortcuts.5_togglesidebar]
+    keys = ["Shift","m"]
+    function = "scToggleSidebar"
+  [navbar.shortcuts.6_toggletoc]
+    keys = ["Shift","t"]
+    function = "scToggleToc"
+  [navbar.shortcuts.7_backtotop]
+    keys = ["Shift","ArrowUp"]
+    function = "scBackToTop"
+  [navbar.shortcuts.8_gotobottom]
+    keys = ["Shift","ArrowDown"]
+    function = "scGoToBottom"
+  [navbar.shortcuts.9_print]
+    keys = ["Shift","p"]
+    function = "scPrint"
+  [navbar.shortcuts.10_qrcode]
+    keys = ["Shift","q"]
+    function = "scQrCode"
+  [navbar.shortcuts.11_closemodals]
+    keys = ["Escape"]
+    function = "scCloseModals"

@@ -1,0 +1,53 @@
+<div class="columns is-marginless is-multiline is-centered">
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.params.github.main -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-brands fa-github fa-2x"></i>
+        <p>GitHub repository</p>
+      </div>
+    </a>
+  </div>
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.params.github.download -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-solid fa-download fa-2x"></i>
+        <p>Download</p>
+      </div>
+    </a>
+  </div>
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.params.github.issue -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-solid fa-circle-info fa-2x"></i>
+        <p>Report an issue</p>
+      </div>
+    </a>
+  </div>
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.params.github.fork -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-solid fa-code-branch fa-2x"></i>
+        <p>Fork</p>
+      </div>
+    </a>
+  </div>
+</div>
+<p>
+    Website built with <a href="https://gohugo.io/" target="_blank">Hugo</a>&nbsp;v{{- hugo.Version -}}
+</p>

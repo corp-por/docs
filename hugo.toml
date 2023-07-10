@@ -1,0 +1,5 @@
+baseURL = 'https://docs.corppor.com/'
+languageCode = 'en-us'
+title = 'CODEX'
+
+theme = 'shadocs'
