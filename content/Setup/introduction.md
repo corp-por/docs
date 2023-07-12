@@ -13,10 +13,6 @@ This information is written from the assumption the reader has a basic understan
 
 Currently, ServX is only supported on Windows. Linux will be supported but for now only Windows.
 
-## Config
-
-ServX will look for a [Config.xml](/config) file in the current working directory, if one is not found then a default will be created. This is the same for the AccessList.xml
-
 ## Folder Structure
 
 The default [Config.xml](/config) will look for a folder named *core* and a folder named *stones* up one directy from the working directory:

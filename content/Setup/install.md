@@ -4,7 +4,7 @@ titleIcon: "fa-brands fa-steam"
 categories: ["Setup"]
 date: 2023-07-03T14:12:32-06:00
 draft: false
-weight: 10
+weight: 2
 ---
 
 # SteamCMD

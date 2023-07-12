@@ -4,8 +4,12 @@ titleIcon: "fa-solid fa-terminal"
 categories: ["Setup"]
 date: 2023-07-03T14:12:32-06:00
 draft: false
-weight: 100
+weight: 5
 ---
+
+# Prerequisites
+
+ServX relies on the .Net 6.0 Runtime. If this is not installed, upon run you will be prompted with a link to install.
 
 # Run
 
