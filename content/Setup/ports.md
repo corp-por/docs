@@ -4,7 +4,7 @@ titleIcon: "fa-solid fa-network-wired"
 categories: ["Setup"]
 date: 2023-07-06T14:12:32-06:00
 draft: false
-weight: 6
+weight: 7
 ---
 ## ServX
 ServerIndex is set in [Config.xml](/config).

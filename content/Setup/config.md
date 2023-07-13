@@ -1,8 +1,8 @@
 ---
 title: "Config.xml"
 titleIcon: "fa-icons fa-solid fa-wrench"
-categories: ["Config"]
-weight: 999
+categories: ["Setup"]
+weight: 6
 ---
 
 ### Default Config.xml

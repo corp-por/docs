@@ -9,4 +9,4 @@ weight: 4
 
 # Map
 
-The map in stones/mapdata/Stones will need to be loaded in World Creator and exported before ServX will run with this configuration.
+The map in stones/mapdata/Stones will need to be loaded in [World Creator](/worldcreator) and exported before ServX will run with the default configuration.

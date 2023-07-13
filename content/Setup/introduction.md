@@ -19,7 +19,7 @@ ServX will create a [Config.xml](/config) for you when [run](/setup/run) but onl
 
 ## Folder Structure
 
-The default config will look for a folder named *core* and a folder named *stones* up one directy from the working directory:
+The default config will look for a folder named *core* and a folder named *stones* up one directy from the *current working directory*:
 
     <Core>../core</Core>
 	<Game>../stones</Game>
@@ -33,4 +33,4 @@ The final folder structure could then look something like this:
     servx
     stones
 
-With *rundir* containing the configuration files.
+With *rundir* containing the configuration files and acting as our *current working directory*

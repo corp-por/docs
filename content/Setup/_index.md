@@ -1,5 +1,5 @@
 ---
-title: "Setup"
+title: "ServX Setup"
 titleIcon: "fa-solid fa-icons fa-server"
 categories: ["Setup"]
 weight: 1
