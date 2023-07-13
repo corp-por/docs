@@ -1,6 +1,6 @@
 ---
 title: "Map"
-titleIcon: "fa-solid fa-map"
+titleIcon: "fa-regular fa-map"
 categories: ["Setup"]
 date: 2023-07-12T14:12:32-06:00
 draft: false

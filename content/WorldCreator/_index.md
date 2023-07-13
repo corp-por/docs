@@ -1,6 +1,6 @@
 ---
 title: "World Creator"
-titleIcon: "fa-regular fa-map"
+titleIcon: "fa-solid fa-map"
 categories: ["WorldCreator"]
 weight: 1
 ---
