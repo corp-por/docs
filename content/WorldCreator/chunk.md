@@ -11,6 +11,6 @@ weight: 3
 
 Every map in CODEX is made with the World Creator and is comprised of many individual chunks. A Chunk can easily be visualized in the World Creator in the CODEX client with each chunk containing all the information to load that chunk (terrain, water, objects, collision, etc). This has the advantage of the player streaming in the map chunks around them as necessary. For this we use an http server to host the exported chunks. Another advantage is when working on a map with others, as long as different chunks are edited, there should be no collisions when trying to commit your work.
 
-## .chunkx
+## .chunx
 
 This is the format each individual chunk file is saved in.
