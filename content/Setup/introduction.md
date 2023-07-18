@@ -33,4 +33,4 @@ The final folder structure could then look something like this:
     servx
     stones
 
-With *rundir* containing the configuration files and acting as our *current working directory*
+With *rundir* containing the configuration files and acting as our *current working directory*.
