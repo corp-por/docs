@@ -28,7 +28,6 @@ Most of these commands can be found under their respective access level folders 
 | /bugreport | Currently disabled. | Mortal | `/bugreport` |
 | /cast | Perform an ability | Mortal | `/cast` |
 | /getskill | Get the level of a skill | Mortal | `/getskill <skill>` |
-| /setskill | Set the level of a skill | Mortal | `/setskill <skill> <level>` |
 | /resurrect | Bring something back from the dead. | Immortal | `/resurrect` (`/res`) |
 | /teleport | Jump. Jump. Jump around. | Immortal | `/teleport` (`/tele`) |
 | /invulnerable | Toggle self invulnerability. | Immortal | `/invulnerable` (`/inv`) |
@@ -40,6 +39,7 @@ Most of these commands can be found under their respective access level folders 
 | /slay |  | Demigod | `/slay <target_id>` |
 | /heal | Fully heals the target. | Demigod | `/heal <target_id>` |
 | /summon | Summon your target. | Demigod | `/summon <target_id>` |
+| /setskill | Set the level of a skill | God | `/setskill <skill> <level>` |
 | /backup | Force a backup to take place. | God | `/backup` |
 | /resetworld |  | God | `/resetworld` |
 | /destroyall |  | God | `/destroyall` |
