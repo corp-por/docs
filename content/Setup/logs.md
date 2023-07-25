@@ -5,7 +5,7 @@ categories: ["Setup"]
 weight: 50
 ---
 
-ServX logs can be found in the *rundir/logs* folder.
+ServX logs can be found in the `rundir/logs` folder.
 
 ---
 
