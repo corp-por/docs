@@ -10,8 +10,9 @@ This list may become out-of-date as commands are added or removed. Please check 
 ---
 
 ## Commands
-Most of these commands can be found under their respective access level folders under `core\scripts\commands\<accesslevel>\main.lua`. For commands affecting an object, leaving off the object from the command will produce either a targeting cursor or a UI window.
+Most of these commands can be found under their respective access level folders under `<core/stones>\scripts\commands\<accesslevel>\main.lua`. For commands affecting an object, leaving off the object from the command will produce either a targeting cursor or a UI window.
 
+### Core commands
 | Name | Description | [Access level](/setup/access) | Format (alias) |
 | :---: | :---: | :---: | :---: |
 | /help | Lists all available commands or describes a specific command. | Everyone | `/help <command>` |
@@ -27,7 +28,6 @@ Most of these commands can be found under their respective access level folders 
 | /deletechar |  | Mortal | `/deletechar` |
 | /bugreport | Currently disabled. | Mortal | `/bugreport` |
 | /cast | Perform an ability | Mortal | `/cast` |
-| /getskill | Get the level of a skill | Mortal | `/getskill <skill>` |
 | /resurrect | Bring something back from the dead. | Immortal | `/resurrect` (`/res`) |
 | /teleport | Jump. Jump. Jump around. | Immortal | `/teleport` (`/tele`) |
 | /invulnerable | Toggle self invulnerability. | Immortal | `/invulnerable` (`/inv`) |
@@ -39,7 +39,6 @@ Most of these commands can be found under their respective access level folders 
 | /slay |  | Demigod | `/slay <target_id>` |
 | /heal | Fully heals the target. | Demigod | `/heal <target_id>` |
 | /summon | Summon your target. | Demigod | `/summon <target_id>` |
-| /setskill | Set the level of a skill | God | `/setskill <skill> <level>` |
 | /backup | Force a backup to take place. | God | `/backup` |
 | /resetworld |  | God | `/resetworld` |
 | /destroyall |  | God | `/destroyall` |
@@ -49,3 +48,9 @@ Most of these commands can be found under their respective access level folders 
 | /info | Get information about an object. Gives cursor. | God | `/info` |
 | /opencontainer | View the contents of a container. | God | `/opencontainer` |
 | /shadow | Debug movement by seeing server the representation of a character. | God | `/shadow` |
+
+### Stones commands
+| Name | Description | [Access level](/setup/access) | Format (alias) |
+| :---: | :---: | :---: | :---: |
+| /getskill | Get the level of a skill | Mortal | `/getskill <skill>` |
+| /setskill | Set the level of a skill. | God | `/setskill <skill> <level>` |
