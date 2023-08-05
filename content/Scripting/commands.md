@@ -10,7 +10,7 @@ This list may become out-of-date as commands are added or removed. Please check 
 ---
 
 ## Commands
-Most of these commands can be found under their respective access level folders under `<core/stones>\scripts\commands\<accesslevel>\main.lua`. For commands affecting an object, leaving off the object id from the command should produce either a targeting cursor or a UI window.
+Most of these commands can be found in their respective access level folders under `<core/stones>\scripts\commands\<accesslevel>\main.lua`. For commands affecting an object, leaving off the object id from the command should produce either a targeting cursor or a UI window.
 
 ### Core commands
 | Name | Description | [Access level](/setup/access) | Format (alias) |
