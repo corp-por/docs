@@ -13,10 +13,10 @@ The [API](https://servx.corppor.com) consists of the function defined by ServX t
 
 ## Script layers
 
-There are three layers of scripts possible in CODEX and the paths for each are defined in [Config.xml](/setup/config). `Core` is the base level scripts for the system. `Game` is the next level of scripts and are used to define the ruleset for the game. `Mod` is the final level of scripts and is used to customize features of the game. Higher level files or comamnds will override those with the same name in lower levels.
+There are three layers of scripts possible in CODEX and the paths for each are defined in [Config.xml](/setup/config). `Core` is the base level scripts for the system. `Game` is the next level of scripts and are used to define the ruleset for the game. `Mod` is the final level of scripts and is used to customize features of the game. Higher level files will override those with the same path and name in lower levels.
 
 | Layer | Content | Default path
 | :---: | :---: | :---: |
 | Top layer - `Mod` | Feature customizations | `<Mod>../testcenter</Mod>` (commented out by default)
-| Middle layer - `Game` | Stones (skill based), Vanilla (class based, to be released) | `<Game>../stones</Game>`
+| Middle layer - `Game` | Examples; Stones (skill based), Vanilla (class based, to be released) | `<Game>../stones</Game>`
 | Base layer - `Core` | Core | `<Core>../core</Core>`
