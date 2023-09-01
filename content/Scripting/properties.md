@@ -5,8 +5,6 @@ categories: ["Scripting"]
 weight: 3
 ---
 
-# Properties
-
 ## AI properties
 Mobile AI properties can be managed with Lua in [`stones/scripts/globals/static_data/ai_properties`](https://github.com/corp-por/stones/tree/main/scripts/globals/static_data/ai_properties)
 
