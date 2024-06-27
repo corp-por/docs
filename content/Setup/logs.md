@@ -5,7 +5,7 @@ categories: ["Setup"]
 weight: 50
 ---
 
-ServX logs can be found in the `rundir/logs` folder.
+ServX logs can be found in the `rundir/logs` folder. The name of the logs will depend on the Axiom being used. Here Stones is used as an example.
 
 ---
 

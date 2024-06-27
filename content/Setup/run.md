@@ -27,10 +27,10 @@ If there is more than one Instance defined in Config.xml a specific instance can
 
 ## Confirm Running
 
-When ServX is ready to be connected to you will see:
+When ServX is ready for connections the console will output:
 
     Accepting Users
 
 ## Errors
 
-If errors are encountered when trying to run ServX for the first time, ensure that all installation steps have been completed, including the installation of the .NET [prerequisites](/setup/install/#prerequisites), the [lua](/setup/lua) scripts, and export of the Stones [map](/setup/map). For other errors, see the [errors](/setup/errors) documentation.
+If errors are encountered when trying to run ServX for the first time, ensure that all installation steps have been completed, including the installation of the .NET [prerequisites](/setup/install/#prerequisites), the [lua](/setup/lua) scripts, and export of the Boomtown [map](/setup/map). For other errors, see the [errors](/setup/errors) documentation.

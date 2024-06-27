@@ -13,7 +13,7 @@ Visit the [Core](https://github.com/corp-por/core) and [Stones](https://github.c
 
 # Clone
 
-A better option is to have `git` installed and with the parent server folder run:
+A better option is to have `git` installed and within the intended *current working directory* run:
 
     git clone https://github.com/corp-por/core
     git clone https://github.com/corp-por/stones

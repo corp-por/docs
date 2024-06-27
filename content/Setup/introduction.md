@@ -15,22 +15,24 @@ Currently, ServX is only supported on Windows. Linux will be supported but for n
 
 # Config.xml
 
-ServX will create a [Config.xml](/config) for you when [run](/setup/run) but only if a config does not already exist. Right now we'll create a folder structure to work with this default when it's created.
+ServX will create a [Config.xml](/config) in your *current working directory* when [executed](/setup/run) but only if a Config.xml does not already exist.
 
 ## Folder Structure
+
+Create a new folder somewhere to house all the new folders we will be creating, something like *C:/CODEX*.
+
+Within this folder create another new folder called *rundir* (or whatever you prefer, name doesn't matter. This will be our *current working directory*)
 
 The default config will look for a folder named *core* and a folder named *stones* up one directy from the *current working directory*:
 
     <Core>../core</Core>
-	<Game>../stones</Game>
+	<Axiom>../stones</Axoim>
 
-Next to these folders is a good place to install ServX, allowing one directory to hold all of the instance's data.
-
-The final folder structure could then look something like this:
+After installing both the [Lua Scripts](/setup/lua) and [ServX](/setup/install), The final folder structure within *C:/CODEX* would look like this:
 
     core
     rundir
     servx
     stones
 
-With *rundir* containing the configuration files and acting as our *current working directory*.
+With *rundir* to contain the configuration files and act as our *current working directory*.

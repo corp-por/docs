@@ -11,7 +11,7 @@ weight: 2
 
 ---
 
-[SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) is required to continue.
+<a href="https://developer.valvesoftware.com/wiki/SteamCMD" class="is-pretty-link" target="_blank">SteamCMD</a> is required to continue.
 
 ---
 
@@ -26,12 +26,12 @@ Note: SteamCMD recommends having a separate account to run dedicated servers but
 
 If you prefer, you can save this snippet to a file such as *update_servx.txt* then run:
 
-    steamcmd.exe +runscript D:\my_server\update_servx.txt
+    steamcmd.exe +runscript C:\CODEX\update_servx.txt
 
 ## Prerequisites
 
 ---
 
-ServX relies on the [.Net 6.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+ServX relies on <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0" class="is-pretty-link" target="_blank">.NET 8.0 Runtime</a>
 
-![.Net 6.0 Runtime](/images/net-runtime.png)
+![.Net 8.0 Runtime](/images/net-runtime.png)
