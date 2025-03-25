@@ -40,7 +40,7 @@ ServX will look for a Config.xml file in the current working directory. If one i
 | :---: | :---: |
 | ServerIndex | When ServX runs as an instance to a cluster, this defines the ServerIndex to use for that instance. This setting directly affects [Ports](/setup/ports). |
 | Id | Unique identifier for an Instance, can be anything. This was once called Region Address in Shards Engine and fragments will remain till they don't. |
-| WorldName | The name of the world. This must match the folder in mapdata of the map you wish to run. Requires exported mapdata from World Creator. |
+| WorldName | The name of the world. This must match the folder in mapdata of the map you wish to run. |
 | MaxUsers | The maximum number of users that can connect before ServX refuses further connections. |
 | Required | ClusterX won't accept users until all ServX instances with *Required* set *True* are accepting users.
 

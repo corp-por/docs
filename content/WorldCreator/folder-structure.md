@@ -9,15 +9,8 @@ weight: 2
 
 # Folder Structure
 
-Each map in CODEX is a folder, inside this folder there needs to be at least one (or both) of the following two folders:
+Each map in CODEX is a folder under /mapdata, inside this folder there will be a list of chunx, each file corosponding to its place in the world.
 
-    /raw
-    /bin
+Under /mapseed a file that matches the name of the map will define the Seed spawns for the map. (Initial spawns and respawns after a resetworld).
 
-## raw
-
-The World Creator can load a map folder if there's a raw folder containing [.chunx](/worldcreator/chunk/#chunx) files. This is also where World Creator will save data to when a map save is done. Only the chunks that have edits will be saved.
-
-## bin
-
-This is the folder World Creator will export map data into. Exported map data is ready to be used for client/server.
+For example, the map /mapdata/Test would have a /mapseed/Test.xml, this xml contains defitions to the intial seed spawns.

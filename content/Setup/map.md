@@ -9,6 +9,6 @@ weight: 4
 
 # Map
 
-The map in stones/mapdata/Boomtown will need to be loaded in [World Creator](/worldcreator) and exported before ServX will run with the default configuration.
+The map can be loaded in [World Creator](/worldcreator) and modified if you wish.
 
-Open CODEX and go to the World Creator. This will open with a new world. Go to File -> Open. Navigate to *stones\mapdata\Boomtown* and select this folder. Do not navigate down into *raw*. Once the Boomtown map has been loaded, go to File -> Export and wait for the export to finish. You should now see a *bin* folder under *stones\mapdata\Boomtown*.
+Open CODEX and go to the World Creator. This will open with a new world. Go to File -> Open. Navigate to *stones\mapdata\Boomtown* and select this folder. Once the Boomtown map has been loaded, perform any edits and go to File -> Save. You can now load the map with your edits.

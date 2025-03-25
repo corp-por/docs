@@ -14,12 +14,3 @@ weight: 99
 A restart of the Steam desktop application should solve this.
 
 ---
-
-## Stones.Gameplay
-
-    gameplay Error: 0 : [GameplaySimulation] Fatal exception occured. Broadcasting Panic Message.
-    gameplay Error: 0 : CoreUtil.ShardsException: Missing map export bin folder in mapdata: Expected at: ../core\mapdata\Boomtown\bin. Please Load and Export the map in World Creator.
-        at Gameplay.GameplayModule.BeginSimulation(Boolean _forceNew)
-        at Gameplay.GameplayModule.ThreadProc()
-
-Ensure the Boomtown map has been loaded and exported. See the [map](setup/map) setup documentation for more information.
